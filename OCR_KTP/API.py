@@ -8,6 +8,7 @@ def current_milli_time():
     time_str = str(time.time() * 1000)
     return time_str[:8]
 
+# Di Ubah disini untuk code sec atau masukan ke dalam variabel sec
 with open("/Users/Mahesa/Documents/INI KULIAH BUKAN MAIN MAIN/Code/Pemograman/VS CODE/Python/API/code_sec.txt","r") as f:
     sec = f.read()
 
